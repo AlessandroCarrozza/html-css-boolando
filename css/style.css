@@ -9,7 +9,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* ----------- inizio header --------- */
@@ -60,20 +60,60 @@ main .column-products{
     height: 700px;
     margin: auto;
     justify-content: space-between;
-    margin-top: 50px;
+    padding-top: 50px;
     /* background-color: red; */
 }
 
 main .column-products .product{
     height: 100%;
     width: 32%;
-    background-color: green;
+    /* background-color: green; */
 }
 
 main .column-products .photo{
-    height: 88%;
+    height: 90%;
     width: 100%;
-    background-image: url("../img/1.webp");
     background-size: cover;
-    background-color: blue;
+}
+
+main .photo.one{
+    background-image: url("../img/1.webp");
+}
+
+main .photo.two{
+    background-image: url("../img/2.webp");
+}
+
+main .photo.three{
+    background-image: url("../img/3.webp");
+}
+
+main .photo.four{
+    background-image: url("../img/4.webp");
+}
+
+main .photo.five{
+    background-image: url("../img/5.webp");
+}
+
+main .photo.six{
+    background-image: url("../img/6.webp");
+}
+
+main .info-product{
+    padding-top: 5px;
+}
+
+main .info-product > span{
+    display: block;
+}
+
+main .info-product .discount{
+    font-weight: 700;
+    color: red;
+}
+
+main .info-product .normal-price{
+    font-weight: 400;
+    text-decoration: line-through;
 }
