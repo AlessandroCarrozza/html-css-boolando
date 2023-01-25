@@ -71,6 +71,7 @@ main .column-products{
 main .column-products .product{
     height: 100%;
     width: 32%;
+    position: relative;
 }
 
 main .column-products .photo{
@@ -80,33 +81,59 @@ main .column-products .photo{
     position: relative;
 }
 
+
 main .photo.one{
     background-image: url("../img/1b.webp");
-}
-
+    position: relative;
+}  
 
 main .photo.one{
     background-image: url("../img/1.webp");
-} 
+    position: relative;
+}  
+ 
+main .photo.one:hover{
+    background-image: url("../img/1b.webp");
+}
 
 main .photo.two{
     background-image: url("../img/2.webp");
+}
+
+main .photo.two:hover{
+    background-image: url("../img/2b.webp");
 }
 
 main .photo.three{
     background-image: url("../img/3.webp");
 }
 
+main .photo.three:hover{
+    background-image: url("../img/3b.webp");
+}
+
 main .photo.four{
     background-image: url("../img/4.webp");
+}
+
+main .photo.four:hover{
+    background-image: url("../img/4b.webp");
 }
 
 main .photo.five{
     background-image: url("../img/5.webp");
 }
 
+main .photo.five:hover{
+    background-image: url("../img/5b.webp");
+}
+
 main .photo.six{
     background-image: url("../img/6.webp");
+}
+
+main .photo.six:hover{
+    background-image: url("../img/6b.webp");
 }
 
 main .info-product{
@@ -138,6 +165,7 @@ main .photo .heart{
     position: absolute;
     right: 0;
     top: 10px;
+    color: black;
 }
 
 main .photo .heart:active{
@@ -208,3 +236,6 @@ footer a{
     padding-right: 5px;
     padding-top: 3px;
 }
+
+/* ---------- fine footer -------- */
+
