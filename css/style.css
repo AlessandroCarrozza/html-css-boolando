@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.flex{
+    display: flex;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ----------- inizio header --------- */
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #fc6b04;
+}
+
+.header-bar{
+    height: 100%;
+    width: 70%;
+    background-color: #fc6b04;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bar .bar-elements a{
+    color: white;
+    text-decoration: none;
+}
+
+.header-bar .gender a{
+    padding: 7px 5px;
+    font-weight: 500;
+}
+
+.header-bar .info-items a{
+    padding: 7px 3px;
+}
