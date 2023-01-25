@@ -74,11 +74,17 @@ main .column-products .photo{
     height: 90%;
     width: 100%;
     background-size: cover;
+    position: relative;
 }
 
 main .photo.one{
-    background-image: url("../img/1.webp");
+    background-image: url("../img/1b.webp");
 }
+
+
+main .photo.one{
+    background-image: url("../img/1.webp");
+} 
 
 main .photo.two{
     background-image: url("../img/2.webp");
@@ -117,3 +123,43 @@ main .info-product .normal-price{
     font-weight: 400;
     text-decoration: line-through;
 }
+
+main .info-product > span:first-child{
+    font-size: 0.9em;
+}
+
+main .photo .heart{
+    font-size: 25px;
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+main .photo .heart:active{
+    color: red;
+}
+
+main .labels{
+    display: inline-block;
+    position: absolute;
+    bottom: 50px;
+}
+
+main .labels > span{
+    padding: 5px 10px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+main .labels .label-red{
+    background-color: red;
+}
+
+main .labels .label-green{
+    background-color: green;
+}
+
+/* ------------- fine main -------------- */
