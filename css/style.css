@@ -39,6 +39,41 @@ header{
     font-weight: 500;
 }
 
-.header-bar .info-items a{
+.header-bar .header-items a{
     padding: 7px 3px;
+}
+
+/* ---------- fine header --------- */
+
+
+
+
+
+/* ----------- inizio main----------- */
+
+main{
+    height: 1000px;
+}
+
+main .column-products{
+    width: 70%;
+    height: 700px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    /* background-color: red; */
+}
+
+main .column-products .product{
+    height: 100%;
+    width: 32%;
+    background-color: green;
+}
+
+main .column-products .photo{
+    height: 88%;
+    width: 100%;
+    background-image: url("../img/1.webp");
+    background-size: cover;
+    background-color: blue;
 }
