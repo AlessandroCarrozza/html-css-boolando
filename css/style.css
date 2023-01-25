@@ -168,7 +168,7 @@ main .photo .heart{
     color: black;
 }
 
-main .photo .heart:active{
+main .photo .heart:hover{
     color: red;
 }
 
